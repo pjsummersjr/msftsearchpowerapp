@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>pjsmtc_microsoftsearchexperience_bc7bb</Name>
+  <AppVersion>2022-09-20T17:54:43Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22091.11.0</CreatedByClientVersion>
+  <MinClientVersion>3.22091.11.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22091.11","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20220602T031357Z-3.22052.27.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Microsoft Search Experience</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"ed726363-c645-4cee-84ad-e04595b2680c":{"id":"/providers/microsoft.powerapps/apis/shared_webcontents","displayName":"HTTP with Azure AD","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1578/1.0.1578.2813/webcontents/icon.png","dataSources":["HTTPwithAzureAD"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium","actions":["GetFileContent"],"endpoints":["https://graph.microsoft.com"],"isCustomApiSolutionAware":false},"ed7333cf-afc0-44a5-8dd2-97cc78d6bd8a":{"id":"/providers/microsoft.powerapps/apis/shared_microsoft-20search-20connector-5fb94a07b6737615-302bfa4753252868","displayName":"Microsoft Search Connector","iconUri":"https://prodapiicons.cdn.powerappscdn.net/20220408t000000zecec3dd2401248f69bb91ad18e49fa51/customconnectoricon.jpg","dataSources":["MicrosoftSearchConnector"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SearchDocuments","Trending"],"isCustomApiSolutionAware":false},"67fe85e9-83fa-4889-9511-a40d37b2154d":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1593/1.0.1593.2980/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","isCustomApiSolutionAware":false}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{},"components":[{"componentName":"CustomControl","identifier":"pjsearch_MTCPaulSumm.SearchCardGalleryLayout","identifierType":"LogicalName","capabilities":{"pcfExternalServiceUsageAllowed":false}}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"dependencyid":"","logicalname":"pjsearch_MTCPaulSumm.SearchCardGalleryLayout","componenttype":66,"componenttypeplatformname":"CustomControl"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/pjsmtc_microsoftsearchexperience_bc7bb_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/pjsmtc_microsoftsearchexperience_bc7bb_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
